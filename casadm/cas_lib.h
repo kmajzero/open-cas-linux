@@ -49,6 +49,7 @@ struct cache_device {
 	int flushed;
 	unsigned size;
 	int core_count;
+	bool standby_detached;
 	struct core_device cores[];
 };
 
